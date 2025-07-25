@@ -1,0 +1,105 @@
+/* header section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+.drak{
+    color: #8987A1;
+}
+/* hero */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text{
+    max-width:500px ;
+}
+.hero h1{
+    font-size: ;
+}
+.highlight{
+color: #E95A08;
+}
+/* main */
+.our{
+    text-align: center;
+    margin-top: 30px;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.product-card{
+    /* border: 1px solid bisque; */
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.product-card img{
+    width: 100%;
+    height: auto;
+}
+.product-card button{
+    margin-top: 10px;
+    padding: 10px 14px;
+    background: #E95A08;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+/* Flower-lover */
+.Flower-lover{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    align-items: center;
+}
+.Flower-lover img{
+    width: 50%;
+}
+.Flower-lover h2{
+    gap: 10px;
+    margin-left: 30px;
+}
+/* deals section */
+.deals-cards{
+            display: grid;
+            grid-template-columns: repeat(2,1,1fr);
+        }
+.deals-card{
+          
+            width: 425px;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 0 6px 12px rgba(0, 0,0, 0.15);
+        }
+        
+    .deal-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: px;
+background: rgba(o, 0,0, 0.55);
+text-align:center;
+
+    }
+    .latest{
+        text-align: center;
+    }
