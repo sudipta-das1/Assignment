@@ -1,8 +1,7 @@
 /* header section */
 .navbar{
     display: flex;
-    justify-content: space-between;
-
+    justify-content:space-between;
 }
 .nav-links{
     display: flex;
@@ -22,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 250px;
 }
 .hero-text{
     max-width:500px ;
@@ -125,3 +125,95 @@ text-align:center;
             border: none;
             border-radius: 5px;
         }
+        /* footer  */
+        .footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  background-color: #f8fbff;
+  padding: 40px;
+  
+  align-items: start;
+  margin-top: 20px;
+}
+.footer-logo {
+  max-width: 250px;
+}
+.footer-logo p {
+  font-size: 14px;
+  color: black;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 40px;}
+
+  .footer-links a {
+  display: block;
+  margin-bottom: 8px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media screen and( max-width:575px){
+    .navbar .hero .Flower-lover{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .hero img{
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .product{
+        display: grid;
+        grid-template-columns: 2,1fr;
+    }
+    .subscribe {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .footer-links{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+@media screen and (min-width:576px)and(max-width:992){
+    .navbar .hero .Flower-lover{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero img{
+        width:80% ;
+        margin-top:20px;
+    }
+    .product{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .deals-cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .deals-cards img{
+        width: 100%;
+    }
+    .footer-links ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px ;
+    }
+}
