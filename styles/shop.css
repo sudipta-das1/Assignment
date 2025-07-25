@@ -103,3 +103,25 @@ text-align:center;
     .latest{
         text-align: center;
     }
+    /* subscribe */
+    .subscribe{
+        background-image: url(../images/news-letter-bg.png);
+        text-align: center;
+        height: 425px;
+        
+    }
+    .subscribe input{
+        padding: 10px;
+        width: 250px;
+        margin-right: ;
+        border: none;
+        border-radius:5px;
+        }
+        .subscribe button{
+            width: 250px;
+            height: 30px;
+            padding: 10px,;
+            background-color: #E95A08;
+            border: none;
+            border-radius: 5px;
+        }
